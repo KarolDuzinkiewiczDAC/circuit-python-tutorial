@@ -1,5 +1,9 @@
 Adafruit-Blinka==8.19.0
 adafruit-circuitpython-busdevice==5.2.5
+adafruit-circuitpython-motor==3.4.10
+adafruit-circuitpython-motorkit==1.6.11
+adafruit-circuitpython-pca9685==3.4.9
+adafruit-circuitpython-register==1.9.15
 adafruit-circuitpython-requests==1.13.3
 adafruit-circuitpython-typing==1.9.3
 Adafruit-PlatformDetect==3.46.0

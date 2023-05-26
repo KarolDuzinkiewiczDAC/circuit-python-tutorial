@@ -2,6 +2,8 @@ import board
 import digitalio
 import time
 
+# NOTE: This requires a button/switch conected to GPIO4 and GND
+
 # connect button to GPIO4
 button_1 = digitalio.DigitalInOut(board.D4)
 button_1.direction = digitalio.Direction.INPUT
