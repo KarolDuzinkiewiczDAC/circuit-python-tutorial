@@ -1,3 +1,6 @@
+# NOTE: This script uses a built-in LED, so no additional HW elements are
+#       required for it to work.
+
 import board
 import digitalio
 import time

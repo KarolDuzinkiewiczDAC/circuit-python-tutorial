@@ -1,3 +1,6 @@
+# NOTE: Use serial console to be able to see the output & input stuff in the
+#       terminal to interact with the board.
+
 import time
 
 while True:
