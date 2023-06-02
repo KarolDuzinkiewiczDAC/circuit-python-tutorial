@@ -23,6 +23,8 @@ while True:
 
     print('BLE connection to central established')
 
+    ble.stop_advertising()
+
     while ble.connected:
         if uart.in_waiting:
             packet = Packet.from_stream(uart)
