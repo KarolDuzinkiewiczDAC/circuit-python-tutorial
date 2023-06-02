@@ -6,6 +6,10 @@ from adafruit_ble.advertising.standard import ProvideServicesAdvertisement
 from adafruit_ble.services.nordic import UARTService
 
 ble = BLERadio()
+
+print(f'BLE name: {ble.name}')
+print(f'BLE address: {ble.address_bytes}')
+
 uart = UARTService()
 advertisement = ProvideServicesAdvertisement(uart)
 
