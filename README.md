@@ -5,6 +5,7 @@ This is a repository for illustrating different usages of CircuitPython.
 Currently is includes examples for:
 * Raspberry Pi (`cicruit-python-tutorial/raspberry_pi`)
 * Adafruit ESP32-S3 Feather (`cicruit-python-tutorial/esp32s3_feather`)
+* Adafruit nRF52840 Feather (`cicruit-python-tutorial/nRF52840_feather`)
 
 ## Raspberry Pi
 
@@ -35,3 +36,12 @@ Also, make sure that you copied all necessary CircuitPython libraries into `CIRC
 Connect all the necessary HW according to `circuit-python-tutorial/esp32s3_feather/circuit_python_tutorial_esp32.fzz`
 
 Run various examples included in the `circuit-python-tutorial/esp32s3_feather` sub-folders.
+
+## Adafruit nRF52840 Feather
+
+Setup your nRF52840 Feather and install CicruitPython. See https://learn.adafruit.com/introducing-the-adafruit-nrf52840-feather/circuitpython for more details.
+Perform the same CircuitPython bring-up procedure as for ESP32-S3 Feather.
+
+**NOTE:** No additional HW is necessary to run the examples.
+
+Run various examples included in the `circuit-python-tutorial/nRF52840_feather` sub-folders.
